@@ -1,0 +1,10 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, bike_type TEXT, color TEXT, price NUMERIC, item_sold NUMERIC);
+
+INSERT INTO store VALUES
+(1, 'motorcycle', 'black', 1000, 9),
+(2, 'bicycle', 'pink', 35, 4),
+(3, 'unicycle', 'orange', 80, 6),
+(4, 'motorcycle', 'blue', 90, 4),
+(5, 'bicycle', 'mint', 50, 2);
+
+SELECT * from store ORDER BY price DESC;
